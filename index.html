@@ -1,13 +1,156 @@
 <!DOCTYPE html>
-<html lang="en">
+<!DOCTYPE html>
+<html lang="es">
 <head>
     <meta charset="UTF-8">
+    <title>Currículum - Jose Manuel Teruel Moreno</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: #f4f4f4;
+            margin: 0;
+            padding: 0;
+            color: #333;
+        }
+        .container {
+            max-width: 900px;
+            margin: 40px auto;
+            background: #fff;
+            padding: 30px;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+        }
+        header {
+            display: flex;
+            justify-content: space-between;
+            flex-wrap: wrap;
+            border-bottom: 2px solid #eee;
+            padding-bottom: 20px;
+            margin-bottom: 30px;
+        }
+        header h1 {
+            margin: 0;
+            color: #2c3e50;
+        }
+        header h2 {
+            margin: 5px 0 0;
+            font-weight: normal;
+            color: #666;
+        }
+        .contacto {
+            text-align: right;
+            font-size: 0.9em;
+        }
+        section {
+            margin-bottom: 30px;
+        }
+        section h3 {
+            border-left: 4px solid #3498db;
+            padding-left: 10px;
+            color: #2c3e50;
+        }
+        .item {
+            margin-bottom: 20px;
+        }
+        .item h4 {
+            margin: 0;
+        }
+        .item span {
+            font-size: 0.9em;
+            color: #777;
+        }
+        ul {
+            padding-left: 20px;
+        }
+        @media (max-width: 600px) {
+            header {
+                flex-direction: column;
+            }
+            .contacto {
+                text-align: left;
+                margin-top: 15px;
+            }
+        }
+    </style>
 </head>
 <body>
-    
-<p>Holaaa</p>
+
+<div class="container">
+    <header>
+        <div>
+            <h1>Jose Manuel Teruel Moreno</h1>
+            <h2>Desarrollador Web Full Stack</h2>
+        </div>
+        <div class="contacto">
+            <p>📍 Murcia, España</p>
+            <p>📧 jmtm@gmail.com</p>
+            <p>📞 +34 333 333 333</p>
+            <p>🌐 www.jmtm.dev</p>
+        </div>
+    </header>
+
+    <section>
+        <h3>Perfil Profesional</h3>
+        <p>
+            Desarrollador web con más de 5 años de experiencia en la creación de aplicaciones web
+            modernas, escalables y orientadas al usuario. Especializado en tecnologías JavaScript,
+            frameworks frontend y desarrollo backend con APIs REST.
+        </p>
+    </section>
+
+    <section>
+        <h3>Experiencia Laboral</h3>
+
+        <div class="item">
+            <h4>Senior Web Developer – TechNova Solutions</h4>
+            <span>2021 – Actualidad</span>
+            <ul>
+                <li>Desarrollo de aplicaciones web con React y Node.js.</li>
+                <li>Diseño e implementación de APIs REST.</li>
+                <li>Optimización de rendimiento y SEO técnico.</li>
+                <li>Mentoría a desarrolladores junior.</li>
+            </ul>
+        </div>
+
+        <div class="item">
+            <h4>Desarrollador Frontend – DigitalWave Agency</h4>
+            <span>2018 – 2021</span>
+            <ul>
+                <li>Maquetación web con HTML5, CSS3 y JavaScript.</li>
+                <li>Integración de diseños UI/UX responsivos.</li>
+                <li>Colaboración con equipos de diseño y marketing.</li>
+            </ul>
+        </div>
+    </section>
+
+    <section>
+        <h3>Formación Académica</h3>
+
+        <div class="item">
+            <h4>Grado en Ingeniería Informática</h4>
+            <span>Universidad Europea de Madrid – 2014 / 2018</span>
+        </div>
+    </section>
+
+    <section>
+        <h3>Habilidades</h3>
+        <ul>
+            <li>HTML5, CSS3, JavaScript (ES6+)</li>
+            <li>React, Vue.js</li>
+            <li>Node.js, Express</li>
+            <li>Git y control de versiones</li>
+            <li>Diseño responsive y accesibilidad</li>
+        </ul>
+    </section>
+
+    <section>
+        <h3>Idiomas</h3>
+        <ul>
+            <li>Español – Nativo</li>
+            <li>Inglés – Avanzado</li>
+        </ul>
+    </section>
+</div>
 
 </body>
 </html>
